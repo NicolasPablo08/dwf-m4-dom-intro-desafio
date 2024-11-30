@@ -1,0 +1,2 @@
+document.querySelector(".lista").querySelectorAll("li").forEach(e=>e.remove()),[{tema:"terminal",class:""},{tema:"node",class:""},{tema:"oop",class:""},{tema:"typescript",class:""},{tema:"css",class:""},{tema:"dom",class:"special"}].forEach(e=>{let a=document.createElement("li");a.innerHTML=e.tema,""!==e.class&&a.classList.add(e.class),document.querySelector(".lista").appendChild(a)});
+//# sourceMappingURL=index.be018941.js.map
